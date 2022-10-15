@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-right: 320px;
+    margin-left: 220px;
+    background-color: #b5cbcb; 
+    position: relative;
+    padding-left: 2px;
+    margin-top: 15px;
+    height: 125vh;
+ 
+ border: 2px dotted black;
+}
+.head{
+   
+    height: 180px;
+    width: 58vw;
+background:blanchedalmond url('blur.webp') fixed ;
+}
+header{
+    text-align: center;
+}
+p{
+    margin: 44px;
+}
+.firstname{
+    /* background-color: pink; */
+    height: 4vh;
+      margin: 20px;
+  width: 425px;
+  border-radius: 3px;
+  
+}
+/* .firstname input{
+    border: 2px solid rgb(2, 2, 2);
+    box-sizing: border-box;
+    background: rgb(203, 204, 197);
+    width: 346px;
+    height: 29px;
+    border-radius: 9px; */
+
+
+/* } */
+.lastname{
+    /* background-color: pink; */
+    height: 4vh;
+    text-align: right;
+    margin: 64px;
+  width: 425px;
+  border-radius: 3px;
+  text-align: initial;
+}
+ input{
+    border: 2px solid rgb(2, 2, 2);
+    box-sizing: border-box;
+    background: rgb(202, 204, 195);
+    width: 346px;
+    height: 29px;
+    text-align: center;
+    border-radius: 9px;}
+    .email{
+        /* background-color: pink; */
+        /* backgroundblue */
+       margin: 2px;
+        height: 62px;
+        text-align: center;
+    }
+    /* .email input{
+        border: 2px solid rgb(2, 2, 2);
+        box-sizing: border-box;
+        background: rgb(202, 202, 199);
+        width: 346px;
+        height: 29px;
+        border-radius: 9px;} */
+        .req {
+            color: red;
+        }
+hr{
+ border: 1px solid gray;
+}
+.comment{
+    font-size: medium;
+   text-align: initial;
+   padding-left: 70px;
+  
+}
+
+
+textarea{
+    height: 90px;
+    width: 386px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background: rgb(202, 202, 199);
+    text-align: center;
+
+}
+.btn {
+    
+    margin: 13px;
+border-radius: 5px;
+height: 27px;
+border: 2px solid #0d0b0b;
+text-shadow: 1px 1px 1px #000;
+}
+.btn:hover{
+    background-color: rgb(169, 169, 162);
+    cursor: pointer;
+}
+
+
+
+
